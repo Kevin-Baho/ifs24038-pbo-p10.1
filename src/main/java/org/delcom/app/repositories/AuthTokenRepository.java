@@ -19,5 +19,3 @@ public interface AuthTokenRepository extends JpaRepository<AuthToken, UUID> {
     @Query("DELETE FROM AuthToken at WHERE at.userId = ?1")
     void deleteByUserId(UUID userId);
 }
-
-//azzz
