@@ -62,7 +62,7 @@ public class TodoControllerTests {
     }
 
     // ==========================================
-    // 1. TEST CREATE TODO
+    // 1. TEST CREATE_TODO
     // ==========================================
     @Test
     @DisplayName("Create Todo - Success")
@@ -129,7 +129,7 @@ public class TodoControllerTests {
     }
 
     // ==========================================
-    // 3. TEST GET TODO BY ID
+    // 3. TEST GET_TODO BY ID
     // ==========================================
     @Test
     @DisplayName("Get Todo By ID - Success")
@@ -156,7 +156,7 @@ public class TodoControllerTests {
     }
 
     // ==========================================
-    // 4. TEST UPDATE TODO
+    // 4. TEST UPDATE_TODO
     // ==========================================
     @Test
     @DisplayName("Update Todo - Success")
@@ -215,7 +215,7 @@ public class TodoControllerTests {
     }
 
     // ==========================================
-    // 5. TEST DELETE TODO
+    // 5. TEST DELETE_TODO
     // ==========================================
     @Test
     @DisplayName("Delete Todo - Success")
